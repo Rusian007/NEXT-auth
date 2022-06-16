@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+
+.structure {
+  font-family: "Poppins", sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
+  font-weight: 500;
+  background-color: #667292;
+  outline: none;
+  height: 100vh;
+}
+
+.h1
+{
+  color: white;
+  font-weight: 700;
+}
+
+.p {
+  color: white;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.main{
+ padding: 2px 177px;
+}
+
+.landbtn {
+  display: inline-block;
+  color: white;
+  background-color: #8d9db6;
+  text-transform: capitalize;
+  font-weight: 700;
+  border: solid;
+  border-color: white;
+  outline: none;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 0.3s;
+  padding: 10px 25px;
+}
+
+.landbtn .btn_sm {
+  padding: 7px 21px;
+}
+
+.landbtn .btn_lg {
+  padding: 12px 36px;
+}
+
+.landbtn:hover {
+  background-color: #48D1CC;
+}
+
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+
+.mycontainer {
+  padding: 0px 177px;
+
+}
+
+.heading{
+  padding-top: 45px;
+  margin-bottom: 60px;
+}
+.heading .logo img {
+  height: 30px;
+}
+
+.heading .main_navgation {
+  flex: 1;
+  gap: 0;
+}
+
+.heading .main_navgation > div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.heading .nav_buttons .btn {
+  color: white;
+  width: 80%;
+}
+
+
+.main_navgation a {
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  transition: 0.3s;
+}
+
+.main_navgation a:hover {
+  color:#8d9db6;
+}
+
+@media (max-width: 992px) {
+  .main_navgation a {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+.landing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: hidden;
+  margin-top: 65px;
+}
+
+.landing .landing_text {
+  
+  margin-left: 10px;
+  
+}
+
+
+.landing .landing_text h1 {
+  
+  font-size: 3.9em;
+  line-height: 1.15;
+  padding-bottom: 30px;
+}
+
+
+.landing .landing_text p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  letter-spacing: 8px;
+  
+}
+
+
+.landing .landing_image {
+  width: 800px;
+  margin-left: 10px;
+}
